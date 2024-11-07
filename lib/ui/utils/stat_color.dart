@@ -6,11 +6,11 @@ Color getStatColor(int statValue) {
   } else if (statValue >= 100) {
     return Colors.green[400]!;
   } else if (statValue >= 60) {
-    return Colors.yellow;
+    return Colors.green;
   } else {
     statValue >= 31;
     {
-      return Colors.red;
+      return Colors.green;
     }
   }
 }
